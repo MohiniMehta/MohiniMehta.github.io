@@ -435,6 +435,31 @@ footer {
 #contactForm button:hover {
     background-color: #010632;
 }
+
+
+.download-button {
+    text-align: center;
+    margin-top: 20px; /* Adjust the margin as needed */
+}
+
+.download-button a {
+    text-decoration: none;
+}
+
+.download-button button {
+    background-color: #000743; /* Button background color */
+    color: #ffffff; /* Button text color */
+    padding: 10px 20px; /* Adjust padding as needed */
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.download-button button:hover {
+    background-color: #010632; /* Change color on hover */
+}
 /* media query */
 @media screen and (min-width: 768px) {
     .timeline {
