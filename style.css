@@ -21,7 +21,7 @@ body {
 
 header {
     background-image: url('https://c4.wallpaperflare.com/wallpaper/185/787/652/star-celestial-body-space-light-wallpaper-preview.jpg');
-    background-size: cover;
+    background-size: 100vh;
     background-position: center; 
     color: #fff;
     text-align: center;
@@ -486,4 +486,7 @@ footer {
       -webkit-transform: translateX(-50%);
               transform: translateX(-50%);
     }
+  }
+  .Footer{
+    color: white;
   }
